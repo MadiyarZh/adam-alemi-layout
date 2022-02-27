@@ -1029,6 +1029,13 @@ footer {
     .container {
         min-width: 1288px;
     }
+
+    footer {
+
+        .container {
+            min-width: 1250px;
+        }
+    }
 }
 
 @media (min-width: 768px) {
