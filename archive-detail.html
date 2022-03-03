@@ -13,19 +13,19 @@
         <div class="container">
             <div class="top-header">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-sm-12">
                         <div class="logo">
-                            <a href="/">
+                            <a href="/index.html">
                                 <img src="img/logo.png" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-lg-5 col-sm-12">
                         <div class="site-name">
                             Адам Әлемі
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <div class="login-btns">
                             <a href="#" class="login-btn register">
                                 Регистрация
@@ -57,35 +57,82 @@
     <div class="body">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 left-sidebar">
-                    <div class="left-sidebar-menu">
+                <div class="burger-btn">
+                    <button class="menu-trigger" id="menu07">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </button>
+                </div>
+                <div class="col-lg-3 col-sm-12 left-sidebar">
+                    <div class="burger-btn second">
+                        <button class="menu-trigger" id="menu07">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </button>
+                    </div>
+                    <div class="left-sidebar-menu" id="leftsidebar">
                         <ul>
-                            <li>
-                                <a href="#">Текущий выпуск</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="index.html" class="parent">Текущий выпуск</a>
                             </li>
-                            <li>
-                                <a href="about-journal.html">
+                            <li class="left-sidebar-menu-li">
+                                <a href="about-journal.html" class="parent">
                                     О нас
                                     <img src="img/right-arrow.svg" alt="right-arrow">
                                 </a>
+                                <div class="left-sidebar-menu-dropdown">
+                                    <ul>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-goal.html">
+                                                Цель журнала
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-direction.html">
+                                                Тематические направления журнала
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-edition.html">
+                                                Редакция
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-politic.html">
+                                                Редакционная политика журнала
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-confidential.html">
+                                                Политика конфиденциальности
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-contact.html">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li>
-                                <a href="archive.html" class="active">Архивы</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="archive.html" class="parent active">Архивы</a>
                             </li>
-                            <li>
-                                <a href="#">
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">
                                     Для авторов
-                                    <img src="img/right-arrow.svg" alt="right-arrow">
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">Порядок рецензирования</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">Порядок рецензирования</a>
                             </li>
-                            <li>
-                                <a href="#">Публикационная этика</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">Публикационная этика</a>
                             </li>
-                            <li>
-                                <a href="#">Объявления</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">Объявления</a>
                             </li>
                         </ul>
                     </div>

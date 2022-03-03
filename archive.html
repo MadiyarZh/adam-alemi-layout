@@ -13,19 +13,19 @@
         <div class="container">
             <div class="top-header">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-sm-12">
                         <div class="logo">
-                            <a href="/">
+                            <a href="/index.html">
                                 <img src="img/logo.png" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-lg-5 col-sm-12">
                         <div class="site-name">
                             Адам Әлемі
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <div class="login-btns">
                             <a href="#" class="login-btn register">
                                 Регистрация
@@ -57,35 +57,82 @@
     <div class="body">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 left-sidebar">
-                    <div class="left-sidebar-menu">
+                <div class="burger-btn">
+                    <button class="menu-trigger" id="menu07">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </button>
+                </div>
+                <div class="col-lg-3 col-sm-12 left-sidebar">
+                    <div class="burger-btn second">
+                        <button class="menu-trigger" id="menu07">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </button>
+                    </div>
+                    <div class="left-sidebar-menu" id="leftsidebar">
                         <ul>
-                            <li>
-                                <a href="#">Текущий выпуск</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="index.html" class="parent">Текущий выпуск</a>
                             </li>
-                            <li>
-                                <a href="about-journal.html">
+                            <li class="left-sidebar-menu-li">
+                                <a href="about-journal.html" class="parent">
                                     О нас
                                     <img src="img/right-arrow.svg" alt="right-arrow">
                                 </a>
+                                <div class="left-sidebar-menu-dropdown">
+                                    <ul>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-goal.html">
+                                                Цель журнала
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-direction.html">
+                                                Тематические направления журнала
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-edition.html">
+                                                Редакция
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-politic.html">
+                                                Редакционная политика журнала
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-confidential.html">
+                                                Политика конфиденциальности
+                                            </a>
+                                        </li>
+                                        <li class="left-sidebar-menu-dropdown-li">
+                                            <a href="about-journal-contact.html">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li>
-                                <a href="archive.html" class="active">Архивы</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="archive.html" class="parent active">Архивы</a>
                             </li>
-                            <li>
-                                <a href="#">
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">
                                     Для авторов
-                                    <img src="img/right-arrow.svg" alt="right-arrow">
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">Порядок рецензирования</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">Порядок рецензирования</a>
                             </li>
-                            <li>
-                                <a href="#">Публикационная этика</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">Публикационная этика</a>
                             </li>
-                            <li>
-                                <a href="#">Объявления</a>
+                            <li class="left-sidebar-menu-li">
+                                <a href="#" class="parent">Объявления</a>
                             </li>
                         </ul>
                     </div>
@@ -104,7 +151,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-sm-12">
                     <div class="row main-block-top">
                         <div class="col-lg-8 col-sm-12">
                             <form class="search">
@@ -148,39 +195,41 @@
                                         <input type="text" id="selected-year" value="2020">
 
                                         <div>
-                                            <input class="checked-year" type="radio" id="2016"
-                                            name="year" value="2016">
-                                            <label for="2016">2016</label>
-                                        </div>
-                                        <div class="circle"></div>
-                                        <div>
-                                            <input class="checked-year" type="radio" id="2017"
-                                            name="year" value="2017">
-                                            <label for="2017">2017</label>
-                                        </div>
-                                        <div class="circle"></div>
-                                        <div>
-                                            <input class="checked-year" type="radio" id="2018"
-                                            name="year" value="2018">
-                                            <label for="2018">2018</label>
-                                        </div>
-                                        <div class="circle"></div>
-                                        <div>
-                                            <input class="checked-year" type="radio" id="2019"
-                                            name="year" value="2019">
-                                            <label for="2019">2019</label>
-                                        </div>
-                                        <div class="circle"></div>
-                                        <div>
-                                            <input class="checked-year" type="radio" id="2020"
-                                            name="year" value="2020" checked>
-                                            <label for="2020">2020</label>
-                                        </div>
-                                        <div class="circle"></div>
-                                        <div>
-                                            <input class="checked-year" type="radio" id="2021"
-                                            name="year" value="2021">
-                                            <label for="2021">2021</label>
+                                            <div>
+                                                <input class="checked-year" type="radio" id="2016"
+                                                name="year" value="2016">
+                                                <label for="2016">2016</label>
+                                            </div>
+                                            <div class="circle"></div>
+                                            <div>
+                                                <input class="checked-year" type="radio" id="2017"
+                                                name="year" value="2017">
+                                                <label for="2017">2017</label>
+                                            </div>
+                                            <div class="circle"></div>
+                                            <div>
+                                                <input class="checked-year" type="radio" id="2018"
+                                                name="year" value="2018">
+                                                <label for="2018">2018</label>
+                                            </div>
+                                            <div class="circle"></div>
+                                            <div>
+                                                <input class="checked-year" type="radio" id="2019"
+                                                name="year" value="2019">
+                                                <label for="2019">2019</label>
+                                            </div>
+                                            <div class="circle"></div>
+                                            <div>
+                                                <input class="checked-year" type="radio" id="2020"
+                                                name="year" value="2020" checked>
+                                                <label for="2020">2020</label>
+                                            </div>
+                                            <div class="circle"></div>
+                                            <div>
+                                                <input class="checked-year" type="radio" id="2021"
+                                                name="year" value="2021">
+                                                <label for="2021">2021</label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

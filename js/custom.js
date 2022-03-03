@@ -27,3 +27,15 @@ $( "input[type=radio][name=baz]:checked" ).val();
 //         }
 //     });
 // }
+
+
+// Menu Burger
+
+$(function(){
+    $('.menu-trigger').on('click', function() {
+      $(".menu-trigger").toggleClass('active');
+      $("#leftsidebar").toggleClass('responsive');
+      $(".left-sidebar").toggleClass('fixed');
+      return false;
+    });
+});
